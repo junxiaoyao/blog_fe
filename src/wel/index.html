@@ -5,6 +5,47 @@
     <title>Title</title>
 </head>
 <body>
+<button onclick="sendXMLHttpRequest()">dasd da   </button>
+<button onclick="s()">s   </button>
+<script src="../../src/static/ajq/jquery-1.12.min.js"></script>
+<script>
+    function sendXMLHttpRequest() {
+        var xmlhttp;
+        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {// code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("GET", "localhost:8080/ajax/getTime", true);
+        xmlhttp.setRequestHeader("token", "123213423434");
+        xmlhttp.send();
+    }
+    function s() {
+        $.ajax({
+            async:true,
+            type:"post",
+            url:"localhost:8080/ajax/getTime",
+          //  data:JSON.stringify(params),
+            contentType: "application/json; charset=utf-8",
 
+            crossDomain:true,
+            xhrFields: {  withCredentials: true  },
+
+            dataType:"json",
+            success:function(data){
+                console.log(data);
+            },
+            error:function(data){
+                console.log(data)
+            }
+
+        })
+    }
+</script>
 </body>
 </html>
