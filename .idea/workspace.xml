@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/wel/s.html" line="48" />
+    <bookmark url="file://$PROJECT_DIR$/src/wel/s.html" line="51" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a981b866-8da1-4895-a8d2-50a7328e208d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wel/s.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/wel/s.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,26 +35,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wel/s.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="133">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/wel/s.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-806">
+              <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/static/tool.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="1132">
+              <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -60,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wel/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="1628">
               <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
             </state>
           </provider>
@@ -100,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/wel/html/index.html" />
         <option value="$PROJECT_DIR$/src/wel/index.html" />
         <option value="$PROJECT_DIR$/src/wel/login.html" />
-        <option value="$PROJECT_DIR$/src/static/tool.js" />
         <option value="$PROJECT_DIR$/src/wel/s.html" />
+        <option value="$PROJECT_DIR$/src/static/tool.js" />
       </list>
     </option>
   </component>
@@ -129,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,11 +163,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blog_fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wel" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +217,9 @@
       <option name="presentableId" value="Default" />
       <updated>1576115171440</updated>
       <workItem from="1576115173687" duration="5346000" />
-      <workItem from="1576198864063" duration="10881000" />
+      <workItem from="1576198864063" duration="12336000" />
+      <workItem from="1576458766674" duration="3843000" />
+      <workItem from="1577070463721" duration="5911000" />
     </task>
     <task id="LOCAL-00001" summary="5">
       <created>1576115253912</created>
@@ -224,17 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1576137985590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="前段暂存">
+      <created>1576224843146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576224843146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16227000" />
+    <option name="totallyTimeSpent" value="27436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,7 +334,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5" />
-    <option name="LAST_COMMIT_MESSAGE" value="5" />
+    <MESSAGE value="前段暂存" />
+    <option name="LAST_COMMIT_MESSAGE" value="前段暂存" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/static/wel/res/js/util/mm.js">
@@ -400,6 +418,9 @@
     <entry file="file://$PROJECT_DIR$/src/static/ajq/jquery-1.12.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/index/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/wel/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7067">
@@ -410,34 +431,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/index/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wel/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="1628">
           <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wel/s.html">
+    <entry file="file://$PROJECT_DIR$/src/wel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="133">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/tool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="1132">
+          <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wel/s.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
         </state>
       </provider>
     </entry>

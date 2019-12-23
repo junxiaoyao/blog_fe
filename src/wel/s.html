@@ -32,6 +32,9 @@
         <button type="button" onclick="testButton2()" class="layui-btn layui-btn-sm layui-btn-normal">
             测试跨域请求
         </button>
+        <button type="button" onclick="testButton3()" class="layui-btn layui-btn-sm layui-btn-normal">
+            测试跨域Post请求
+        </button>
         <button type="button" onclick="xhr()" class="layui-btn layui-btn-sm layui-btn-normal">xhr1
         </button>
         <button type="button" onclick="xhr2()" class="layui-btn layui-btn-sm layui-btn-normal">xhr2
@@ -68,13 +71,18 @@
     }
 
     function testButton() {
-        get_request('rest/getTime',null);
+        get_request('rest/getTime', null);
 
     }
 
     function testButton2() {
-        var data={'msg':'sdsd'}
-        get_request('rest/getTime2',data);
+        var data = {'msg': 'sdsd'}
+        get_request('rest/getTime2', data);
+    }
+
+    function testButton3() {
+        var data = {'msg': 'sdsd', 'code': 200}
+        post_request('rest/getTime3', data);
     }
 
     function setHearder(xhr) {
@@ -117,6 +125,7 @@
             // IE6, IE5 浏览器执行代码
             xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
         }
+
         xmlhttp.open('POST', 'http://127.0.0.1:8081/rest/getTime2');
 
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
